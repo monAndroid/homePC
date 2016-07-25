@@ -35,8 +35,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickBtnMac(View v) {
-        //Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://m.naver.com"));
-        //startActivity(intent);
         TextView textView1 = (TextView) findViewById(R.id.txtResult) ;
         //String macAddress=getCurrentMacAddress();
         String macAddress=getMACAddress("wlan0");
